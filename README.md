@@ -4,7 +4,7 @@
 
 This repo contains a Jupyter Notebook (specifically targeting Python 3.6+) which solves a [Set Cover Problem](https://en.wikipedia.org/wiki/Set_cover_problem): how many Google Cloud IAM roles are required to convey every possible unique IAM permission in GCP?
 
-This is covered in a blog post, and is just the practical application of a greedy algorithm to get an answer to that question, which originally came from a customer seeking every permission.
+This is covered in a [blog post](https://medium.com/@angstwad/solving-a-set-cover-problem-in-cloud-iam-on-gcp-6c509b39271b), and is just the practical application of a greedy algorithm to get an answer to that question, which originally came from a customer seeking every permission.
 
 To be clear, it is not a recommended best practice to grant *every* possible role, but to grant by the policy of [least privilege](https://cloud.google.com/iam/docs/using-iam-securely#least_privilege).
 
